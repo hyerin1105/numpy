@@ -7,7 +7,7 @@ lst = [
 ] #2차원(1차원 배열을 원소로 가지므로)
 arr = np.array(lst)
 
-# 슬라이스
+# slice: 일부분만 출력하기
 a = arr[0:2, 0:2]
 print(a)
 print(arr[1: , :1])
