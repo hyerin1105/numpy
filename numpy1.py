@@ -1,19 +1,19 @@
-import numpy as np
+import numpy as np # numpy 사용 선언
 
-list1 = [1, 2, 3, 4] #1차원 행렬
-a = np.array(list1)
+list1 = [1, 2, 3, 4] # 1차원 행렬
+a = np.array(list1) # a라는 행렬을 ndarray화 하기
 print(type(a))
 print(a.shape)
 
-b = np.array([[1, 2, 3], [4, 5, 6]]) #2차원
+b = np.array([[1, 2, 3], [4, 5, 6]]) # 2차원
 print(b.shape)
-print(b[0, 0]) #출력값: 1
+print(b[0, 0]) # 출력값: 1
 print(b[0][0])
 
 c = np.array([[[1, 2, 3], [4, 5, 6], [7, 8, 9]],[[1, 2, 3], [4, 5, 6], [7, 8, 9]], [[1, 2, 3], [4, 5, 6], [7, 8, 9]]]) #3차원
 print(c.shape)
 
-#출력값
+# 출력값
 # (4,)
 # (2, 3)
 # (3, 3, 3)
